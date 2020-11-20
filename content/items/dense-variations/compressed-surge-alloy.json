@@ -1,0 +1,8 @@
+type: material
+name: "Compressed Surge Alloy"
+description: "Compressed to 16 times the origional density, this material is useable as a much stronger building material."
+explosevness: 0
+flamability: 0
+radioactivity: 0
+hardness: 1
+cost: 16

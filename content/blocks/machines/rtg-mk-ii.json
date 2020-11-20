@@ -1,0 +1,19 @@
+type: DecayGenerator
+name: "RTG mk II"
+description: "The RTG mk II not only produces power, but also returns the decayed forms of the fuel."
+itemDuration: 80
+hasItems: true
+randomleyExplode: false
+//generateEffect: 
+powerProduction: 3
+requirements: [
+  compressed-lead/50
+  thorium/50
+  silicon/75
+  plastanium/75
+  phase-fabric/25
+  surge-alloy/10
+]
+size: 2
+research:rtg-generator
+category: power

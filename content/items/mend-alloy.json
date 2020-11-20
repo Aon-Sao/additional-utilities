@@ -1,0 +1,8 @@
+type: resource
+name: "Mend Alloy"
+description: "Composed of silicon based nanites and raw matter, this materiall is capable of repairing almost anything."
+cost: 2
+hardness: 2
+explosevness: 0
+flamability: 0
+radioactivity: 0

@@ -1,0 +1,44 @@
+type: DoubleTurret
+name: "N/A"
+description: "Shoots extra dense materials over long distances."
+size: 3
+hasPower: true
+hasItems:true
+itemCapacity: 100
+consumes: {
+  power: {
+    usage: 2.5
+    capacity: 180
+  }
+}
+shootSound: artillery
+
+ammo: {
+  compressed-copper: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 100
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 10
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+}
+requirements: [
+  compressed-copper/50
+  compressed-titanium/30
+  compressed-plastanium/20
+]
+recoil: 4
+maxAmmo: 100
+range: 200
+reload: 25
+rotateSpeed: 3
+health: 300
+category: turret
+research: salvo

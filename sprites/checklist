@@ -1,0 +1,26 @@
+sprites/components
+Blocks
+D2	Smart wall, active, inactive, large and small
+D16	Dense walls, 1 small 1 large each: size-dense-material-wall, z.B. dense-copper-wall, large-dense-copper-wall
+		Copper, Lead, Titanium, Tungsten, Phase, Plastinium, Thorium, Surge
+D2	Tungsten walls, small and large
+D2	Lead walls, small and large
+D1/2Patch cannon
+D1RTG Mk II
+D1/2Compressor, active, inactive
+D1/2Dopleganger, active, inactive
+D1/2Fluid driver, as mass driver
+D1/3Tungsten ore
+Mechanics - animate?
+	health sharing for walls
+	health-based turret targetting
+	targeting priorety overides
+Materials
+D1	Tungsten
+D9	Dense Variants
+Resources
+D1	Mend Alloy
+
+Bullet sprite 
+
+Total: 35/47	

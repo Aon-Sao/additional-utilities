@@ -1,0 +1,10 @@
+name: Lead Wall
+description: A wall made of Lead. Slightly worse than Copper, but better than nothing.
+type: Wall
+health: 200
+size: 1
+requirements: [
+  lead/6
+]
+category: defense
+research: duo

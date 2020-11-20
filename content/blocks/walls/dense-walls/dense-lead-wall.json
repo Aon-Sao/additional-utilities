@@ -1,0 +1,10 @@
+name: Dense Lead Wall
+description: Made of compressed lead, this wall is more durable than a standard lead wall.
+type: Wall
+health: 3200
+size: 1
+requirements: [
+  compressed-lead/6
+]
+category: defense
+research: lead-wall-large

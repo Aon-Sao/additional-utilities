@@ -1,0 +1,12 @@
+name: Smart Wall
+description: This advanced wall interlocks with others of its kind to share health.
+type: Wall
+health: 460
+size: 1
+requirements: [
+  silicon/2
+  phase-fabric/2
+  surge-alloy/2
+]
+category: defense
+research: mender

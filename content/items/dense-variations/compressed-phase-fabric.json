@@ -1,0 +1,8 @@
+type: material
+name: "Compressed Phase Fabric"
+description: "Compressed to 16 times the origional density, this material is useable as a much stronger building material."
+explosevness: 0
+flamability: 0
+radioactivity: 9.6
+hardness: 1
+cost: 19.5

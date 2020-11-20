@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Mass Compressor"
+Description: "Compresses various materials into denser forms."
+size: 2
+hasItems: true
+hasPower: true 
+itemCapacity: 128
+canOverdrive: true
+health: 200
+requirements: [
+  graphite/10
+  tungsten/30
+  titanium/30
+]
+consumes: {
+  items: {
+  items: [
+    copper/10
+    surge-alloy/5
+  ]
+}
+  power: {
+    usage: 1.5
+    capacity: 512
+  }
+}
+craftTime: 80
+outputItem: compressed-lead/1
+research: multi-press
+category: crafting

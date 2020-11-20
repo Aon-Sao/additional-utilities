@@ -1,0 +1,10 @@
+name: Dense Copper Wall
+description: Made of compressed copper, this wall is more durable than a standard copper wall.
+type: Wall
+health: 5120
+size: 1
+requirements: [
+  compressed-copper/6
+]
+category: defense
+research: copper-wall-large

@@ -1,0 +1,7 @@
+name: additional-utilities
+displayName: Additional Utilities
+author: Marcus and Lars Tracy
+description: Adds several new types of walls, more use for surplus materials, and a few new turrets.
+version: "0.4.15"
+minGameVersion: "104.10"
+dependencies: [ ]

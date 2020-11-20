@@ -1,0 +1,7 @@
+type: OreBlock
+variants: 3
+itemDrop: tungsten
+playerUnminable: true
+oreDefault: true
+oreScale: 24.904762
+oreThreashold: 0.864

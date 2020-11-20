@@ -1,0 +1,10 @@
+name: Dense Surge Wall
+description: Made of compressed surge alloy, this wall is more durable than a standard surge wall.
+type: Wall
+health: 14720
+size: 1
+requirements: [
+  compressed-surge-alloy/6
+]
+category: defense
+research: surge-wall-large

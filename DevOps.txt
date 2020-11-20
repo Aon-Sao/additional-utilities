@@ -1,0 +1,43 @@
+Blocks
+	Smart wall 1tx
+		Silicon, Phase fabric, Surge alloy
+		only share with other smart walls 
+	Dense walls 16tx
+		4 large to single, 4 single dense to 1 large dense,
+		dscps, dscpl, dslds, dsldl, dstns, dstnl, dspns, dspnl, dsths, dsthl, dsphs, dsphl, dssgs, dssgl, dstgs, dstgl
+	Tungsten walls 2tx
+	Lead walls 2tx
+	Patch cannon 1tx
+		Silicon, Titanium
+	RTG Mk II 1tx, der
+		Titanium, dense Lead, surge alloy
+		Thorium decay to lead
+		Phase fabric deacy to silicon
+	Compressor 1tx, der press
+		Titanium, tungsten, graphite
+		dense variants of materials
+	Dopleganger 1tx, der player
+		Phase fabric, Titanium
+		priority target
+	Fluid driver 1tx, der
+		Metaglass, mass driver
+	tungsten ore 1tx
+Mechanics - animate?
+	health sharing for walls
+	health-based turret targetting
+	targeting priorety overides
+Materials
+	tungsten 1tx 
+	dense variants 8tx
+Resources
+	Mend Alloy 1tx
+		Silicon + misc.
+
+Total tx: 29+
+
+Issues:
+Crashing fluid drivers, error from mass driver script
+small smart wall shows up, large not exist
+where patch cannon? valid, filled json
+
+patch cannon should be a turret or a mender type. if mender then aoe, so try turret

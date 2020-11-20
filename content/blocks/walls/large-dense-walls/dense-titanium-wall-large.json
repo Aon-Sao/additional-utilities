@@ -1,0 +1,10 @@
+name: Large Dense Titanium Wall
+description: Made of compressed titanium, this wall is more durable than a standard titanium wall.
+type: Wall
+health: 28160
+size: 2
+requirements: [
+  compressed-titanium/24
+]
+category: defense
+research: dense-titanium-wall

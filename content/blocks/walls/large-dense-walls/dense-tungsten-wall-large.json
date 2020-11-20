@@ -1,0 +1,10 @@
+name: Large Dense Tungsten Wall
+description: Made of compressed tungsten, this wall is more durable than a standard tungsten wall.
+type: Wall
+health: 55040
+size: 2
+requirements: [
+  compressed-tungsten/24
+]
+category: defense
+research: dense-tungsten-wall

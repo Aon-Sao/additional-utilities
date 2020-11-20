@@ -1,0 +1,35 @@
+type: ForceProjector
+name: "Doppleganger"
+description: "Draws enemy fire away for a short time."
+hasPower: true
+hasLiquid: true
+phaseUseTime: 350
+phaseRadiusBoost: 80
+radius: 101.7
+breakage: 550
+cooldownNormal: 1.75
+cooldownLiquid: 1.5
+cooldownBrokenBase: 0.35
+basePowerDraw: 0.2
+health: 1280
+size: 1
+requirements: [
+  silicon/15
+  phase-fabric/15
+  titanium/15
+]
+consumes: {
+  power: {
+    usage: 1
+    capacity: 180
+  }
+  items: {
+    items: [
+      copper/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+research: mend-projector
+category: effect

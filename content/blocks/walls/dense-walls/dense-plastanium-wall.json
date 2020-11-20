@@ -1,0 +1,11 @@
+name: Dense Plastanium Wall
+description: Made of compressed plastanium, this wall is more durable than a standard plastanium wall.
+type: Wall
+health: 12160
+size: 1
+requirements: [
+  compressed-plastanium/5
+  compressed-metaglass/2
+]
+category: defense
+research: plastanium-wall-large

@@ -1,0 +1,8 @@
+type: material
+name: "Tungsten"
+description: "An exceptionally durable material, suitable for use in heavy machinery."
+explosevness: 0
+flamability: 0
+radioactivity: 0
+hardness: 3
+cost: 3

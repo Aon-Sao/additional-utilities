@@ -1,0 +1,10 @@
+name: Dense Phase Wall
+description: Made of compressed phase fabric, this wall is more durable than a standard phase wall.
+type: Wall
+health: 9600
+size: 1
+requirements: [
+  compressed-phase-fabric/6
+]
+category: defense
+research: phase-wall-large

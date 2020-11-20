@@ -1,0 +1,12 @@
+name: "Large Smart Wall"
+description: "This advanced wall interlocks with others of its kind to share health."
+type: Wall
+health: 1840
+size: 2
+requirements: [
+  silicon/8
+  phase-fabric/8
+  surge-alloy/8
+]
+category: defense
+research: smart-wall

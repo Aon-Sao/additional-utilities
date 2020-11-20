@@ -1,0 +1,28 @@
+type: MassDriver
+name: "Fluid Driver"
+description: "Like a mass driver, but it transferes fluids."
+liquidCapacity: 120
+size: 3
+reloadtime: 200
+range: 440
+health: 360
+hasLiquids: true
+hasItems: false
+hasPower: true
+consumes: {
+  power: {
+    usage: 2
+    capacity: 512
+  }
+}
+
+requirements: [
+  lead/125
+  silicon/75
+  thorium/50
+  titanium/125
+  metaglass/125
+] 
+canOverdrive: true
+research: phase-conduit
+category: liquid

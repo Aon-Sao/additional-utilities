@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Mend Alloy Forge"
+description: "Uses silicon and spare matter to forge mend alloy."
+size: 2
+health: 200
+hasItmes: true
+itemCapacity: 80
+hasPower: true
+consumes: {
+  items: {
+    items: [
+      surge-alloy/5
+    ]
+    booster: true
+  }
+  items: {
+    items: [
+      copper/10
+    ]
+  }
+  power: {
+    usage: 1.75
+    capacity: 200
+  }
+}
+craftTime: 90
+outputItem: mend-alloy/1
+requirements: [
+  silicon/50
+  thorium/10
+  copper/15
+  graphite/15
+]
+category: crafting
+research: silicon-smelter

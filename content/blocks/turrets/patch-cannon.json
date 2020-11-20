@@ -1,0 +1,39 @@
+type: ItemTurret
+name: "Patch Cannon"
+description: "Repairs walls in range using Mend Alloy."
+size: 3
+hasPower: true
+hasItems:true
+itemCapacity: 50
+consumes: {
+  power: {
+    usage: 3
+    capacity: 180
+  }
+  items: {
+    items: [
+      mend-alloy/1
+    ]
+  }
+}
+ammo: {
+  mend-alloy: {
+    type: HealBulletType
+    healPercent: 5
+    hitTiles: true
+    bulletSprite: bullet
+    lifeTime: 80
+    speed: 4
+  }
+}
+requirements: [
+  silicon/15
+  titanium/10
+]
+maxAmmo: 50
+range: 200
+reload: 5
+rotateSpeed: 4
+health: 300
+category: effect
+research: mend-projector

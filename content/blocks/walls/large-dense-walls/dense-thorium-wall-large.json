@@ -1,0 +1,10 @@
+name: Large Dense Thorium Wall
+description: Made of compressed thorium, this wall is more durable than a standard thorium wall.
+type: Wall
+health: 51200
+size: 2
+requirements: [
+  compressed-thorium/24
+]
+category: defense
+research: dense-thorium-wall
