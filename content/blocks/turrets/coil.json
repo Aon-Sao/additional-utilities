@@ -1,0 +1,144 @@
+type: DoubleTurret
+name: "Coil"
+description: "Shoots extra dense materials over long distances."
+size: 3
+hasPower: true
+hasItems:true
+itemCapacity: 100
+consumes: {
+  power: {
+    usage: 2.5
+    capacity: 180
+  }
+}
+shootSound: artillery
+
+ammo: {
+  compressed-copper: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 100
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-lead: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 150
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-titanium: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 200
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-thorium: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 250
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    status: burning
+    statusDuration: 60
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-metaglass: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 200
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-plastanium: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 200
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-surge-alloy: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 300
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+  compressed-tungsten: {
+    type: ArtilleryBulletType
+    collides: true
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    damage: 250
+    splashDamage: 15
+    splashDamageRadius: 20
+    knockback: 20
+    hitTiles: true
+    lifeTime: 160
+    speed: 5
+  }
+}
+requirements: [
+  compressed-copper/50
+  compressed-titanium/30
+  compressed-plastanium/20
+]
+recoil: 4
+maxAmmo: 100
+range: 200
+reload: 30
+rotateSpeed: 1
+health: 300
+category: turret
+research: salvo
