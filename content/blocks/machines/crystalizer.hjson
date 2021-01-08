@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: "Crystalizer"
+description: "Turns power into crystals"
+size: 2
+health: 200
+hasItems: true
+itemCapacity: 10
+hasPower: true
+craftTime: 60
+outputItem: item-power-crystal/1
+category: crafting
+research: surge-tower
+
+requirements: [
+  copper/500
+  lead/500
+  silicon/500
+]
+
+consumes: {
+  power: 16.6666666666666666666667
+}
+craftEffect: freezing
