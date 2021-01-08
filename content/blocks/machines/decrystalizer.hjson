@@ -1,0 +1,26 @@
+type: SingleTypeGenerator
+name: "Decrystalizer"
+description: "Turns Power Crystals back into power"
+randomlyExplodes: false
+size: 2
+health: 200
+research: surge-tower
+category: power
+itemCapacity: 10
+hasItems: true
+
+requirements: [
+    copper/500
+    lead/500
+    silicon/500
+]
+  
+  consumes: {
+    items: {
+      items: [
+        item-power-crystal/1
+    ]
+  }
+}
+  itemDuration: 60
+  powerProduction: 16.666666666666666666667
